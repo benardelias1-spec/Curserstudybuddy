@@ -1,0 +1,17 @@
+{
+  "name": "procureos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ProcureOS - Intelligent Supply Chain Management System (frontend)",
+  "workspaces": [
+    "purchasing-dashboard"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm --workspace purchasing-dashboard run dev -- --host 0.0.0.0 --port 5173",
+    "build": "npm --workspace purchasing-dashboard run build",
+    "lint": "npm --workspace purchasing-dashboard run lint",
+    "preview": "npm --workspace purchasing-dashboard run preview -- --host 0.0.0.0 --port 4173"
+  }
+}
+
