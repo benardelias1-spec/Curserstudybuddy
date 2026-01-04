@@ -1,0 +1,15 @@
+{
+  "name": "procureos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ProcureOS - Intelligent Supply Chain Management System (frontend)",
+  "scripts": {
+    "postinstall": "npm install --prefix purchasing-dashboard",
+    "start": "npm run dev",
+    "dev": "npm run dev --prefix purchasing-dashboard -- --host 0.0.0.0 --port 5173",
+    "build": "npm run build --prefix purchasing-dashboard",
+    "lint": "npm run lint --prefix purchasing-dashboard",
+    "preview": "npm run preview --prefix purchasing-dashboard -- --host 0.0.0.0 --port 4173"
+  }
+}
+
