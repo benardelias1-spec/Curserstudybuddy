@@ -1,4 +1,4 @@
-# Purchasing Dashboard (Figma build)
+# ProcureOS (frontend)
 
 The app lives in `purchasing-dashboard/`.
 
@@ -7,6 +7,14 @@ The app lives in `purchasing-dashboard/`.
 ```bash
 cd purchasing-dashboard
 npm install
+npm run dev
+```
+
+## StackBlitz (mobile-friendly)
+
+StackBlitz needs a `package.json` at the repo root. This repo includes one, so you can just import from GitHub and run:
+
+```bash
 npm run dev
 ```
 
